@@ -13,7 +13,7 @@ public class DbConnector {
 		Class.forName("com.mysql.cj.jdbc.Driver");  
 		
 		Connection connection = DriverManager.getConnection
-				("jdbc:mysql://localhost:3306/mcdonaldsdb","root","!my?400256$");  
+				("jdbc:mysql://localhost:3306/mcdonaldsdb","root","root");  
 		
 		return connection;
 		
